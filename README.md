@@ -1,4 +1,4 @@
-# Get Your Recipe - A Food App
+# Get An Advice
 
 This project is a ReactJS based project which used get random api to fetch data. It generates random advice when you press the button below. This website is fully responsive.
 

@@ -1,38 +1,70 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
+}
+
+.app{
+  height: 100vh;
+  color: white;
+  background: linear-gradient(rgba(126, 26, 26, 0.6), rgba(0, 0, 0, 0.5)), url('../src/videos/3.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card{
+  position: absolute;
+  top: 33%;
+  background-color: black;
+  opacity: 0.9;
+  padding: 50px 60px 30px 60px;
+  border-radius: 30px;
+  width: 650px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .card:hover{
+  transform: scale(1.02)
+} */
+
+h1{
+  margin-bottom: 50px;
+  color: #AC584D;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button{
+  font-size: 10px;
+  padding: 12px 25px;
+  font-weight: bold;
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #AC584D;
+  color: #bb7970;
+  letter-spacing: 1px;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover{
+  transform: scale(1.1)
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* span {
+ 
+  letter-spacing: 0.7px;
 }
+  
+button:hover {
+  animation: rotate 0.7s ease-in-out both;
+}
+  
+button:hover span {
+  animation: storm 0.7s ease-in-out both;
+  animation-delay: 0.06s;
+} */
